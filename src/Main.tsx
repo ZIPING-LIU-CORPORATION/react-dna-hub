@@ -1,6 +1,5 @@
 import { relative } from "path";
 import React from "react";
-import ReactViewAdobe from "react-adobe-embed";
 import { Route, Router, Routes } from "react-router";
 import { BrowserRouter } from "react-router-dom";
 import Part1 from "./Pages/Part1";
@@ -828,7 +827,7 @@ export const Main = () => {
                   accept-charset="UTF-8"
                   method="post"
                 >
-                  {/* <input
+                  <input
                     type="hidden"
                     name="authenticity_token"
                     value="0CTW3-2mBawO-B4y-Kl73A6GJZDj0eCAy8qwCC--kkqxXHX0SPrWNSEg5A06LFRcB4zjaPCKYApJnEC_2R52uw"
@@ -840,7 +839,7 @@ export const Main = () => {
                     data-csrf="true"
                     className="js-confirm-csrf-token"
                   />
-                  <input type="hidden" name="context" value="repository" /> */}
+                  <input type="hidden" name="context" value="repository" />
                   <button
                     data-hydro-click='{"event_type":"repository.click","payload":{"target":"UNSTAR_BUTTON","repository_id":488696119,"originating_url":"https://github.com/ZipingL/dna/blob/00f5b4f9b83df69b90d5505d5782c3cf3128640e/23andMe_Ancestry_Book.pdf","user_id":8689680}}'
                     data-hydro-click-hmac="a723d4e604e2351c7be22ad28909d3375baabee7aad2a2004f1c54b87594a1c2"
@@ -2603,10 +2602,10 @@ export const Main = () => {
                 <div className="render-wrapper">
                   <div
                     style={{
-                      position: "relative",
-                      paddingTop: " max(60%, 326px)",
-                      height: "0",
                       width: "100%",
+                      position: 'relative',
+                      paddingTop: 'max(60%, 326px)',
+                      height: '0px'
                     }}
                   >
                     <div className="pdfFrame">
