@@ -1,46 +1,15 @@
-# Getting Started with Create React App
+# My DNA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is another one of those github static pages. Okay I will stop doing static pages now and go back to finishing liu.academy and its research report for Append C.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Because some companies still find it proper and wise, no it's not the company, my apologies:
+ - Specific Person(s) within a corporation that have become a virus that infected the organizational processes
+Such persons still think it wise to not take accoutnability and make prudent actions with full corrrespondance.
+ - I am just right now, speechless and very disappointed in whatever ability these people think they had.
+ - They never had any. If you need to retaliate to get what you want in life, then you are pretty much someone who admitted to complete failure.
+ - Because like [#TheDropout](https://www.hulu.com/series/the-dropout-13988f84-f1c8-40dd-a73c-4e71ab4bbe63), you become something that simply is a leach, because you rather think it wise to believe the value is from a paper saying you have a major corp or some number in your phone that says you have a high score
+   - Than, to actually embody the high score as simply the outcome of who you are. And you become a recurively negative-delta blackhole of failure.
+   - Liu LLC approves the #TheDropout as a fully realistic artistic portrayal of this so-called "tech" industry if just simpeltons like Andy Jassy lensla Adam Selipsky et al, with their Attorney Drones of Yes Mans.
+   
+   
+## [ziping.life](https://ajassy.cn/uighur)
