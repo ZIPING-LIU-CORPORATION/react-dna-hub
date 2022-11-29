@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactViewAdobe from 'react-adobe-embed';
+import PreviewFileConfig from 'react-adobe-embed/types/@types/PreviewFIleConfig';
 
 export const Part1 = () => {
+
+    const configs: Partial<PreviewFileConfig> = {
+        defaultViewMode: 'FIT_PAGE'
+    }
     return(
         <div   
         className="reactView"
@@ -19,20 +24,17 @@ export const Part1 = () => {
 
         <ReactViewAdobe 
         
-            previewConfig={{
-                defaultViewMode: 'FIT_PAGE',
-            }}
-            config={
-                
+              previewConfig={
+            configs}
+
+               config= {
                 {
-                  clientId: "627b951122de46fc88412e09c54af25d",
-                  divId: 'ancestry-pdf',
-                  url: 'https://storage.googleapis.com/awslegal/notarized/23andMe%20Ancestry%20Book%20-%20Part%201%20of%202_encrypted_.pdf',
-                  fileMeta: {
-                    fileName: '23andMe_Ancestry_Book_Part1.pdf',
-                  }
+                    divId: 'dna-part-1',
+                    clientId: 'YOUR_CLIENT',
+                    url: 'https://storage.googleapis.com/awslegal/notarized/23andMe%20Ancestry%20Book%20-%20Part%201%20of%202_encrypted_.pdf'
                 }
-            }
+               }
+            
         />
         
         </div>
