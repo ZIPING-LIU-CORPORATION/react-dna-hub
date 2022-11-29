@@ -29,7 +29,7 @@ export const Part2 = () => {
                   divId: 'ancestry-pdf',
                   url: 'https://storage.googleapis.com/awslegal/notarized/23andMe%20Ancestry%20Book%20-%20Part%202%20of%202_encrypted_.pdf',
                   fileMeta: {
-                    fileName: '23andMe_Ancestry_Book.pdf',
+                    fileName: '23andMe_Ancestry_Book_Part2.pdf',
                   }
                 }
             }
