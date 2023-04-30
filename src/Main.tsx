@@ -2324,7 +2324,7 @@ export const Main = () => {
                     >
                       <img
                         className="avatar avatar-user"
-                        src="./static_files/8689680(1)"
+                        src="/wp-content/reactpress/apps/react-dna-hub/build/static_files/8689680(1)"
                         width="24"
                         height="24"
                         alt="@ZipingL"
@@ -2641,7 +2641,7 @@ export const Main = () => {
                   <form
                     className="js-jump-to-line-form Box-body d-flex"
                     data-turbo="false"
-                    action="https://github.com/ZipingL/dna/blob/00f5b4f9b83df69b90d5505d5782c3cf3128640e/23andMe_Ancestry_Book.pdf"
+                    action="https://storage.googleapis.com/laotzu/awslegal/notarized/23andMe%20Ancestry%20Book%20-%20Part%201%20of%202_encrypted_.pdf"
                     accept-charset="UTF-8"
                     method="get"
                   >

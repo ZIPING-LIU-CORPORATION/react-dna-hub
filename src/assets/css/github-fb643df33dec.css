@@ -9645,14 +9645,11 @@ ul.clones li {
     min-width: 0;
     padding: 0
 }
-footer.width-full.container-xl.p-responsive a,
-.position-relative.js-header-wrapper a,
-.position-relative.js-header-wrapper a span,
-.position-relative.js-header-wrapper a svg,
-#global-nav a,
+
 .application-main a,
 .application-main a span,
 .application-main a svg {
     text-decoration: none;
 }
+
 /*# sourceMappingURL=github-a28bb6f36efe.css.map*/
