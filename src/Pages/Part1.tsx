@@ -38,7 +38,7 @@ export const Part1 = () => {
                 {
                     divId: 'dna-part-1',
                     clientId: window.location.href.includes('localhost') ? 'c514163c351b4f2082ef01e530840e0b' : "627b951122de46fc88412e09c54af25d",
-                    url: 'https://storage.googleapis.com/awslegal/notarized/23andMe%20Ancestry%20Book%20-%20Part%201%20of%202_encrypted_.pdf'
+                    url: 'https://storage.googleapis.com/laotzu/awslegal/notarized/23andMe%20Ancestry%20Book%20-%20Part%201%20of%202_encrypted_.pdf'
                 }
                }
             
