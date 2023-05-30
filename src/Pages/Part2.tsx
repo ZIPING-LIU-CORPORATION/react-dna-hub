@@ -1,9 +1,12 @@
 import React from 'react';
-import ReactViewAdobe from 'react-adobe-embed';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import ReactDOM from 'react-dom/client';
+import getId from '../util';
+import {ReactViewAdobe} from 'react-adobe-embed';
 import './part.css';
 
 
-export const Part2 = () => {
+export default function Part2 () {
     return(
         <div   
         className="reactable-viewer col-10"
@@ -27,19 +30,16 @@ export const Part2 = () => {
               showAnnotationTools: true,
               showLeftHandPanel: true,
             }}
-            config={
-                
-                {
-                  clientId: window.location.href.includes('localhost') ? 'c514163c351b4f2082ef01e530840e0b' : "627b951122de46fc88412e09c54af25d",
-                  divId: 'ancestry-pdf-part-two',
-                  url: 'https://storage.googleapis.com/awslegal/notarized/23andMe%20Ancestry%20Book%20-%20Part%202%20of%202_encrypted_.pdf',
           
-                }
-            }
+                  clientId ={getId()}
+                  id= 'ancestry-pdf-part-two'
+                  url= 'https://storage.googleapis.com/laotzu/awslegal/notarized/23andMe%20Ancestry%20Book%20-%20Part%202%20of%202_encrypted_.pdf'
+          
+                
+            
         />
         
         </div>
     )
 }
 
-export default Part2;

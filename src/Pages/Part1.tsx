@@ -1,7 +1,10 @@
 import React from 'react';
-import ReactViewAdobe, { PreviewFileConfig } from 'react-adobe-embed';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import ReactDOM from 'react-dom/client';
+import  { ReactViewAdobe, PreviewFileConfig } from 'react-adobe-embed';
+import getId from '../util';
 import './part.css'
-export const Part1 = () => {
+export default function Part1 () {
 
     const configs: Partial<PreviewFileConfig> = {
         defaultViewMode: 'FIT_PAGE',
@@ -34,18 +37,18 @@ export const Part1 = () => {
               previewConfig={
             configs}
 
-               config= {
-                {
-                    divId: 'dna-part-1',
-                    clientId: window.location.href.includes('localhost') ? 'c514163c351b4f2082ef01e530840e0b' : "627b951122de46fc88412e09c54af25d",
-                    url: 'https://storage.googleapis.com/laotzu/awslegal/notarized/23andMe%20Ancestry%20Book%20-%20Part%201%20of%202_encrypted_.pdf'
-                }
-               }
+              
+            
+                    id= 'dna-part-1'
+                    clientId={getId()}
+                    url= 'https://storage.googleapis.com/laotzu/awslegal/notarized/23andMe%20Ancestry%20Book%20-%20Part%201%20of%202_encrypted_.pdf'
+                
+                
             
         />
+
+
         
         </div>
     )
 }
-
-export default Part1;
